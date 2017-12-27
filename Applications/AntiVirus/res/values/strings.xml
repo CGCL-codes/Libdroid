@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">AntiVirus</string>
+    
+    <string name="introductive">
+        \nAntiVirus功能简介：\n
+        \nAntiVirus ver1.0\n
+        \n01.支持对全局扫描与局部扫描，包括扫描压缩文件\n
+        \n02.支持新建文件夹\n
+        \n03.支持文件/文件夹排序\n
+        \n04.支持解压ZIP/RAR压缩文件\n
+        \n05.支持将文件/文件夹压缩为ZIP文件\n
+        \n06.支持按关键字查找sdcard中文件\n
+        \n07.支持文件/文件夹的移动、复制、粘贴、删除、重命名等操作；常用文件类型以作关联，可以点击跳转打开\n
+    </string>
+</resources>
