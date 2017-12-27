@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="Unikernel-Library">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/../Unikernel/out/artifacts/Unikernel_Library_jar/Unikernel-Library.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>
