@@ -18,4 +18,4 @@ An unikernel-based runtime for mobile computation offloading under Mobile Fog Co
   
 1.4 Libdroid
 -------
-  This part contains common Android system libraries that may be used by offloaded codes.
+  This part contains common Android system libraries that may be used by offloaded codes. It is also packaged into unikernel image along with DynamicLinker at compile-time.
