@@ -1,0 +1,16 @@
+<component name="ArtifactManager">
+  <artifact type="jar" build-on-make="true" name="Unikernel-Server:jar">
+    <output-path>$PROJECT_DIR$/out/artifacts/Unikernel_Server_jar</output-path>
+    <root id="archive" name="Unikernel-Server.jar">
+      <element id="directory" name="META-INF">
+        <element id="file-copy" path="$PROJECT_DIR$/META-INF/MANIFEST.MF" />
+      </element>
+      <element id="module-output" name="Unikernel-Server" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/lib/mockito-all-1.8.5.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/lib/jopt-simple-3.2.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/lib/asm-all-3.3.1.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/lib/gson-2.1.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/lib/junit-4.8.2.jar" path-in-jar="/" />
+    </root>
+  </artifact>
+</component>
