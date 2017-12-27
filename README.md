@@ -4,3 +4,7 @@ An unikernel-based runtime for mobile computation offloading under Mobile Fog Co
 
 Project structure
 =====
+
+Unikernel-Library
+-------
+A offloading framework, which provide APIs for mobile applications to quickly offload local computation-intensive tasks to server side to execute.
