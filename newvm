@@ -1,0 +1,12 @@
+#!/bin/sh
+vm=$1
+image_path=$2
+virt-install \
+  --name $vm \
+  --ram  200 \
+  --vcpu 2   \
+  --network default,model='virtio' \
+  --accelerate \
+  --disk path=$image_path \
+  --check path_in_use=off \
+  --import

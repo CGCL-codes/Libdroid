@@ -1,0 +1,7 @@
+#!/bin/bash
+filepath=$1
+password='756614' 
+echo $password | sudo -S kvm -m 150 -smp 1 \
+  -drive file=$filepath,if=virtio,cache=unsafe\
+  -netdev tap,id=hn0,vhost=on -device virtio-net-pci,netdev=hn0,id=nic1 \
+  -device virtio-rng-pci -enable-kvm -cpu host,+x2apic &
