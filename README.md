@@ -1,5 +1,5 @@
 # Libdroid
-Advancing on our previous work (contianer-based server runtime [Rattrap](https://github.com/CGCL-codes/Rattrap)), we implement an unikernel-based runtime for mobile computation offloading under Mobile Fog Computing or Mobile Edge Computing scenarios. Introducing much less boot-up delay, memory footprint, disk usage and energy consumption at IoT Edge.
+Advancing on our previous work (contianer-based server runtime [Rattrap](https://github.com/CGCL-codes/Rattrap)), we implement an unikernel-based runtime for mobile computation offloading under Mobile Fog Computing or Mobile Edge Computing scenarios, Introducing much less boot-up delay, memory footprint, disk usage and energy consumption at IoT Edge.
 ![System Architechture](https://github.com/CGCL-codes/Libdroid/blob/master/figures/arch.png)
 
 1 Project structure
