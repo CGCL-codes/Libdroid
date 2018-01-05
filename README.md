@@ -29,4 +29,4 @@ Advancing on our previous work (contianer-based server runtime [Rattrap](https:/
   To build Android Unikernle, you nees the following environments:
   - Install OSv (see https://github.com/cloudius-systems/osv/blob/master/README.md)
   - JDK7
-  - Install KVM
+  - Install KVM, libvirt
