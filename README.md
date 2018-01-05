@@ -23,3 +23,4 @@ Advancing on our previous work (contianer-based server runtime [Rattrap](https:/
 
 2 Rich-Unikernel: concept and implementation
 =====
+  We define Rich-Unikernel as a kind of unikernel that is more general than conventional unikernel. Conventional unikernel is immutable and customized for each application. That is, once the application changes, we have to recompile and reconstruct the application into a new unikernel, even if the change is very small. However, Rich-Unikernel is not specialized for a particular application and it can be regarded as a base unikernel for a series of applications. All of the system libraries needed by these applications have already been packaged into the base unikernel, so it is able to run different applications (one application at a time)
