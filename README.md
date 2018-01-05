@@ -20,3 +20,5 @@ Advancing on our previous work (contianer-based server runtime [Rattrap](https:/
 1.4 Libdroid
 -------
   This part contains common Android system libraries that may be used by offloaded codes. It is also packaged into unikernel image along with DynamicLinker at compile-time.
+
+2 Rich-Unikernel: concept and implementation
