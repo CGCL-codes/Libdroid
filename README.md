@@ -25,5 +25,8 @@ Advancing on our previous work (contianer-based server runtime [Rattrap](https:/
   
   In our system, we implement a kind of Rich-Unikernel called Android Unikernel, by integrating common Android libraries that are needed by offloaded codes into OSv unikernel. Also, We impletement a tool called DynamicLinker, which is able to dynamically link application codes into Android Unikernel at runtime. Thus, it can serve various applications without time-consuming recompilation, greately improving the response speed of our system.
   
-# 3. How to deploy
-=====
+# 3. How to build
+  To build Android Unikernle, you nees the following environments:
+  - Install OSv (see https://github.com/cloudius-systems/osv/blob/master/README.md)
+  - JDK7
+  - Install KVM
