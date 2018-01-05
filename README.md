@@ -2,7 +2,7 @@
 Advancing on our previous work (contianer-based server runtime [Rattrap](https://github.com/CGCL-codes/Rattrap)), we implement an unikernel-based runtime for mobile computation offloading under Mobile Fog Computing or Mobile Edge Computing scenarios, Introducing much less boot-up delay, memory footprint, disk usage and energy consumption at IoT Edge. We firstly put forward the concept of Rich-Unikernel which aims to support various applications in one unikernel while avoiding their time-consuming recompilation. Following the design of Rich-Unikernel, we implement a not only lightweight but also flexible runtime for offloaded codes, called Android Unikernel, by integrating basic Android system libraries into [OSv unikernel](http://osv.io/).
 ![System Architechture](https://github.com/CGCL-codes/Libdroid/blob/master/figures/arch.png)
 
-1 Project structure
+1. Project structure
 =====
 
 1.1 Unikernel-Library
@@ -21,5 +21,5 @@ Advancing on our previous work (contianer-based server runtime [Rattrap](https:/
 -------
   This part contains common Android system libraries that may be used by offloaded codes. It is also packaged into unikernel image along with DynamicLinker at compile-time.
 
-2 Rich-Unikernel: concept and implementation
+2. Rich-Unikernel: concept and implementation
 =====
