@@ -43,3 +43,5 @@ java -jar Unikernel-Scheduler
 
 ### 4.2 install an modified application
 Download an app from [Applications](https://github.com/CGCL-codes/Libdroid/tree/master/Applications). Here we present [Linkpack](https://github.com/CGCL-codes/Libdroid/tree/master/Applications/Linpack). Also, you can choose your own app and modify it like Linpakc does.
+
+Start application and click ![setting](https://github.com/CGCL-codes/Libdroid/blob/master/figures/setting.png) to choose local execution or remote execution.
