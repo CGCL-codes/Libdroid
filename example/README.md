@@ -13,3 +13,4 @@ api.require('java')
 
 default = api.run('/java.so -jar /Unikernel-Server.jar')
 ```
+This script specifies that the JVM runtime is required when building unikernel and also specialfies the setup command to run Unikernel-Server.
