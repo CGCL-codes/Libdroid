@@ -30,4 +30,4 @@ Create a application in OSv app-hub (osv/apps/), and put all of above files into
 ```
 sudo ./scritpts/build image=DynamickerLinker
 ```
-Then you will get a defualt kvm image at osv/build/usr.img
+Then you will get a defualt kvm image (osv/build/usr.img) which is the unikernel image that contains DynamicLinker and Libdroid.
