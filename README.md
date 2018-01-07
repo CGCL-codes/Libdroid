@@ -31,4 +31,4 @@ Advancing on our previous work (contianer-based server runtime [Rattrap](https:/
   - JDK7
   - Install KVM, libvirt
   
-  Following the [example](https://github.com/CGCL-codes/Libdroid/blob/master/example/README.md) in which we provide some simple configureation files and scripts to build DynamicLinker and Libdroid into Android Unikernel. 
+  Following the [example](https://github.com/CGCL-codes/Libdroid/blob/master/example/) in which we provide some simple configureation files and scripts to build DynamicLinker and Libdroid into Android Unikernel. 
