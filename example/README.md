@@ -1,5 +1,5 @@
 # Step 1
-Package the Libdroid into Libdroid.jar and Unikernel-Server into Unikernel-Server.jar
+Package the Libdroid and Unikernel-Server into [jar format](https://github.com/CGCL-codes/Libdroid/blob/master/example/DynamicLinker)
 ```
 $ jar cvf Libdroid.jar Libdroid
 $ jar cvf Unikernel-Server.jar Unikernel-Server
