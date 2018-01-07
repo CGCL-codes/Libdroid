@@ -24,3 +24,10 @@ Create a mapping file [usr.manifest](https://github.com/CGCL-codes/Libdroid/blob
 /app_hub/resources/Readme.txt: ${MODULE_DIR}/Readme.txt
 ```
 This file is uesed to specify where to place the server programe and the extended Android libraries.
+
+# Step 4
+Create a application in OSv app-hub (osv/apps/), and put all of above files into this folder. Run:
+```
+sudo ./scritpts/build image=DynamickerLinker
+```
+Then you will get a defualt kvm image at osv/build/usr.img
