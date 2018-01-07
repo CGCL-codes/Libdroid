@@ -30,3 +30,18 @@ Advancing on our previous work (contianer-based server runtime [Rattrap](https:/
   - Install OSv (see https://github.com/cloudius-systems/osv/blob/master/README.md)
   - JDK7
   - Install KVM, libvirt
+  
+  Following the [example](https://github.com/CGCL-codes/Libdroid/blob/master/example/) in which we provide some simple configureation files and scripts to build DynamicLinker and Libdroid into Android Unikernel. 
+  
+# 4. Test
+  Before testing, you should install MySQL and import [unikernel.sql](https://github.com/CGCL-codes/Libdroid/edit/master/unikernel.sql) which saves the name, ip and status of a unikernle-based kvm. Dispatcher can quickly find a available kvm ( of which the status is 0) and start it when an offloading request arrives.
+  
+### 4.1 start Dispatcher
+```
+java -jar Unikernel-Scheduler
+```
+
+### 4.2 install an modified application
+Download an app from [Applications](https://github.com/CGCL-codes/Libdroid/tree/master/Applications). Here we present [Linkpack](https://github.com/CGCL-codes/Libdroid/tree/master/Applications/Linpack). Also, you can choose your own app and modify it like Linpakc does.
+
+Start application and click ![setting](https://github.com/CGCL-codes/Libdroid/blob/master/figures/setting.png) to choose local execution or remote execution.
