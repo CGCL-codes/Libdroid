@@ -5,7 +5,7 @@ $ jar cvf Libdroid.jar Libdroid
 $ jar cvf Unikernel-Server.jar Unikernel-Server
 ```
 # Step 2
-Create a configuration file module.py.
+Create a configuration file [module.py]()
 ```
 from osv.modules import api
 
