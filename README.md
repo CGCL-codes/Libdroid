@@ -52,5 +52,5 @@ Also, you can choose your own app and modify it like Linpakc does.
 Start application and click [setting](https://github.com/CGCL-codes/Libdroid/blob/master/figures/setting.png) to choose local execution or remote execution.
 
 ### 4.4 results
-![Local execution](https://github.com/CGCL-codes/Libdroid/blob/master/figures/local.png)
-![Remote execution](https://github.com/CGCL-codes/Libdroid/blob/master/figures/remote.png)
+![Local execution](https://github.com/CGCL-codes/Libdroid/blob/master/figures/local.png =144x256)
+![Remote execution](https://github.com/CGCL-codes/Libdroid/blob/master/figures/remote.png =144x256)
