@@ -1,0 +1,4 @@
+/Unikernel-Server.jar: ${MODULE_DIR}/Unikernel-Server.jar
+/libAndroid/Libdroid.jar: ${MODULE_DIR}/Libdroid.jar
+/app_hub/apks/Readme.txt: ${MODULE_DIR}/Readme.txt
+/app_hub/resources/Readme.txt: ${MODULE_DIR}/Readme.txt
