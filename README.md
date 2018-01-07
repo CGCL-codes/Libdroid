@@ -32,3 +32,13 @@ Advancing on our previous work (contianer-based server runtime [Rattrap](https:/
   - Install KVM, libvirt
   
   Following the [example](https://github.com/CGCL-codes/Libdroid/blob/master/example/) in which we provide some simple configureation files and scripts to build DynamicLinker and Libdroid into Android Unikernel. 
+  
+# 4. Test
+  Before testing, you should install MySQL and import [unikernel.sql](https://github.com/CGCL-codes/Libdroid/edit/master/unikernel.sql) which saves the name, ip and status of a unikernle-based kvm. Dispatcher can quickly find a available kvm ( of which the status is 0) and start it when an offloading request arrives.
+  
+### start Dispatcher
+```
+java -jar Unikernel-Scheduler
+```
+
+### install 
