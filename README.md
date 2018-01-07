@@ -52,6 +52,6 @@ Also, you can choose your own app and modify it like Linpakc does.
 Start application and click [setting](https://github.com/CGCL-codes/Libdroid/blob/master/figures/setting.png) to choose local execution or remote execution.
 
 ### 4.4 results
-[Local execution](https://github.com/CGCL-codes/Libdroid/blob/master/figures/local.png=144x256) shows the result of running linpack on mobile devices itself. It takes 160 seconds to finish solving a set of linear equations.
+[Local execution](https://github.com/CGCL-codes/Libdroid/blob/master/figures/local.png) shows the result of running linpack on mobile devices itself. It takes 160 seconds to finish solving a set of linear equations.
 
-[Remote execution](https://github.com/CGCL-codes/Libdroid/blob/master/figures/remote.png=144x256) shows the result of running linpack through offloading. It takes only 58 seconds to solve the same linear equations.
+[Remote execution](https://github.com/CGCL-codes/Libdroid/blob/master/figures/remote.png) shows the result of running linpack through offloading. It takes only 58 seconds to solve the same linear equations.
