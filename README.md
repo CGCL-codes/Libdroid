@@ -36,9 +36,12 @@ Advancing on our previous work (contianer-based server runtime [Rattrap](https:/
 # 4. Test
   Before testing, you should install MySQL and import [unikernel.sql](https://github.com/CGCL-codes/Libdroid/edit/master/unikernel.sql) which saves the name, ip and status of a unikernle-based kvm. Dispatcher can quickly find a available kvm ( of which the status is 0) and start it when an offloading request arrives.
   
-### start Dispatcher
+### 4.1 start Dispatcher
 ```
 java -jar Unikernel-Scheduler
 ```
 
-### install 
+### 4.2 install an modified application
+Download an app from [Applications](https://github.com/CGCL-codes/Libdroid/tree/master/Applications).
+
+Here we present [Linkpack](https://github.com/CGCL-codes/Libdroid/tree/master/Applications/Linpack)
