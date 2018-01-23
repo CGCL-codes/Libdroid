@@ -16,7 +16,7 @@ Advancing on our previous work (contianer-based server runtime [Rattrap](https:/
 -------
   This part is to build into unikernel. It contains a tool called DynamicLinker which is able to load class from Android bytecodes(.dex) and link application into unikernel at runtime. When an unikernel boots up, this programme runs automatically and waits for offloading requests. With the help of DynamicLinker, we can omit a lot of time-consuming recompiling work when building application into its corresponding unikernel.
   
-1.4 Libdroid
+1.4 Extended Android Libraries
 -------
   This part contains common Android system libraries that may be used by offloaded codes. It is also packaged into unikernel image along with DynamicLinker at compile-time.
 
